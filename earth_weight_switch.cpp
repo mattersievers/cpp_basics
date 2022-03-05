@@ -1,5 +1,7 @@
 #include <iostream>
 
+//This program takes user input for weight on Earth and will give back the corresponding weight on any of the seven other planets within the solar system.
+
 int main() {
   std::cout << "Greetings! Please enter your Earth weight (number only)?\n";
   double weightEarth;

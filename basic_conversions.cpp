@@ -1,5 +1,7 @@
 #include <iostream>
 
+//This program converts user input weight on Earth to weight on Mars and user input distance in miles to distance in kilometer.
+
 int main() {
   std::cout << "The weight on Earth is (number only, no units): \n";
   double weight;
