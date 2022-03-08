@@ -1,7 +1,9 @@
 #include <string>
 
-std::string make_coffee(bool milk, bool sugar) {
-  std::string coffee = "Here's your coffee";
+using namespace std;
+
+string make_coffee(bool milk, bool sugar) {
+  string coffee = "Here's your coffee";
   if (milk && sugar) {
     coffee += " with milk and sugar";
   } else if (milk) {
